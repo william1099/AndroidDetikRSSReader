@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEWSROOM- Portal Berita Terupdate dan Terpercaya"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="#CC000000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="NEWS ROOM adalah salah satu penyedia berita terupdate dan terpercaya. Dibangun tahun 2018 dn kini ... NEWS ROOM adalah salah satu penyedia berita terupdate dan terpercaya.
+Dibangun tahun 2018 dn kini ..."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kritik dan Saran"
+            android:textColor="#ffffff"
+            android:layout_marginTop="15dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:hint="Masukkan kritik maupun saran anda"
+            android:textColorHint="#CC000000"
+            android:gravity="start"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
